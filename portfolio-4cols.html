@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Plato - Clean responsive bootstrap website template</title>
+  <title>Nicholas Bartel</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Clean responsive bootstrap website template">
+  <meta name="description"My name">
   <meta name="author" content="">
   <!-- styles -->
   <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -13,7 +13,6 @@
   <link href="assets/css/docs.css" rel="stylesheet">
   <link href="assets/css/prettyPhoto.css" rel="stylesheet">
   <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-  <link href="assets/css/prettyPhoto.css" rel="stylesheet">
   <link href="assets/css/flexslider.css" rel="stylesheet">
   <link href="assets/css/refineslide.css" rel="stylesheet">
   <link href="assets/css/font-awesome.css" rel="stylesheet">
@@ -42,17 +41,17 @@
   <header>
     <!-- Navbar
     ================================================== -->
-    <div class=" cbp-af-header">
+    <div class="cbp-af-header">
       <div class=" cbp-af-inner">
         <div class="container">
           <div class="row">
 
             <div class="span4">
               <!-- logo -->
-              <a class="logo" href="index.html">
-                <h1>Plato</h1>
+              <div class="logo">
+                <h2><a href="index.html">Nicholas Bartel</a></h2>
                 <!-- <img src="assets/img/logo.png" alt="" /> -->
-              </a>
+              </div>
               <!-- end logo -->
             </div>
 
@@ -62,35 +61,26 @@
                 <div class="navbar-inner">
                   <nav>
                     <ul class="nav topnav">
-                      <li class="dropdown">
+                      <li class="dropdown active">
                         <a href="index.html">Home</a>
                       </li>
                       <li class="dropdown">
-                        <a href="#">Features</a>
+                        <a href="#">Research</a>
                         <ul class="dropdown-menu">
-                          <li><a href="scaffolding.html">Scaffolding</a></li>
-                          <li><a href="base-css.html">Base CSS</a></li>
-                          <li><a href="components.html">Components</a></li>
-                          <li><a href="icons.html">Icons</a></li>
-                          <li><a href="list.html">Styled lists</a></li>
-                          <li class="dropdown"><a href="#">3rd level</a>
-                            <ul class="dropdown-menu sub-menu">
-                              <li><a href="#">Example menu</a></li>
-                              <li><a href="#">Example menu</a></li>
-                              <li><a href="#">Example menu</a></li>
-                            </ul>
+                          <li><a href="CubeSat.html">CubeSat</a></li>
+                          <li><a href="MicroGraivty.html">MicroGravity</a></li>
+                          <li><a href="MASK.html">Magneto Acitve Slosh Controll</a></li>
                           </li>
                         </ul>
                       </li>
                       <li class="dropdown">
-                        <a href="#">Pages</a>
+                        <a href="#">Internships</a>
                         <ul class="dropdown-menu">
-                          <li><a href="about.html">About us</a></li>
-                          <li><a href="pricingtable.html">Pricing table</a></li>
-                          <li><a href="404.html">404</a></li>
+                          <li><a href="Langley.html">NASA Langley</a></li>
+                          <li><a href="Kennedy.html">NASA Kennedy</a></li>
                         </ul>
                       </li>
-                      <li class="dropdown active">
+                      <li class="dropdown">
                         <a href="#">Portfolio</a>
                         <ul class="dropdown-menu">
                           <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li>
@@ -99,14 +89,8 @@
                           <li><a href="portfolio-detail.html">Portfolio detail</a></li>
                         </ul>
                       </li>
-                      <li class="dropdown">
-                        <a href="#">Blog</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="blog_left_sidebar.html">Blog left sidebar</a></li>
-                          <li><a href="blog_right_sidebar.html">Blog right sidebar</a></li>
-                          <li><a href="post_left_sidebar.html">Post left sidebar</a></li>
-                          <li><a href="post_right_sidebar.html">Post right sidebar</a></li>
-                        </ul>
+                      <li>
+                        <a href="myAwards.html">Awards</a>
                       </li>
                       <li>
                         <a href="contact.html">Contact</a>
@@ -123,282 +107,34 @@
       </div>
     </div>
   </header>
-  <!-- Subhead
-================================================== -->
-  <section id="subintro">
+  <section id="intro">
 
     <div class="container">
       <div class="row">
-        <div class="span4">
-          <h3>Portfolio <strong>4 columns</strong></h3>
-        </div>
-        <div class="span8">
-          <ul class="breadcrumb notop">
-            <li><a href="#">Home</a><span class="divider">/</span></li>
-            <li class="active">Portfolio 4 columns</li>
-          </ul>
-        </div>
+        <div class="span6">
+          <h2><strong>Bitmap Creater</strong></h2>
+          <p class="lead">
+		My spring of Junior year, I took an Object Oriented Programming class (OOP). In OOP we learned about the main characteristics of this branch of computer science Inheritance, polymorphism, and encapsulation.  We were set with the goal of creating a Graphical User Interface (GUI) that could then be used for an artist to draw an image and save it as a bitmap file.
+Above you can see the start of the program.  The user is prompted for the amount of rows and columns for their bitmap image.
+
+The user is now given an interface where they can use sliders to control RGB color and change individual pixels as you can  see its 5 row by 5 columns.
+
+Here I changed the value of some of the pixels to blue.
+
+I now have changed some more of the pixels to red and in a sec will create the image.
+
+Here is my final product. The bitmap image of what I have shown above.
+          </p>
+	</div>
+        <div class="span3 offset1">
+	<img src="bitmap1.png" alt="BitMap Creater"/>
+	</div>
       </div>
-    </div>
-
-  </section>
-
-  <section id="maincontent">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <!-- portfolio filter -->
-          <ul class="filter">
-            <li class="all active"><a href="#">All categories</a></li>
-            <li class="web"><a href="#">Web design</a></li>
-            <li class="brand"><a href="#">Brand identity</a></li>
-            <li class="graphic"><a href="#">Graphic design</a></li>
-          </ul>
-          <!-- /portolfio filter -->
-        </div>
-      </div>
-      <div class="row">
-        <ul class="portfolio-area da-thumbs">
-          <li class="portfolio-item" data-id="id-0" data-type="web">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-1.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-
-            </div>
-          </li>
-
-          <li class="portfolio-item" data-id="id-0" data-type="brand">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-2.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="portfolio-item" data-id="id-0" data-type="web">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-3.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="portfolio-item" data-id="id-0" data-type="brand">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-4.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="portfolio-item" data-id="id-0" data-type="web">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-5.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="portfolio-item" data-id="id-0" data-type="web">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-6.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="portfolio-item" data-id="id-0" data-type="graphic">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-7.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="portfolio-item" data-id="id-0" data-type="graphic">
-            <div class="span3">
-              <div class="thumbnail">
-                <div class="image-wrapp">
-                  <img src="assets/img/portfolio/img-8.jpg" alt="Portfolio name" title="" />
-                  <article class="da-animate da-slideFromRight">
-                    <a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/big-1.jpg">
-							<i class="icon-bg-light icon-zoom-in icon-circled icon-2x"></i>
-							</a>
-                    <a href="portfolio-detail.html">
-							<i class="icon-bg-light icon-link icon-circled icon-2x"></i>
-							</a>
-                  </article>
-                </div>
-                <div class="desc">
-                  <h5><i class="icon-file"></i> <strong>Portfolio name</strong></h5>
-                  <p>Lorem ipsum dolor sit amet</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-      </div>
-
     </div>
   </section>
   <!-- Footer
  ================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="span3">
-          <div class="widget">
-            <!-- logo -->
-            <div class="footerlogo">
-              <h6><a href="index.html">Plato</a></h6>
-              <!-- <img src="assets/img/logo.png" alt="" /> -->
-            </div>
-            <!-- end logo -->
-            <address>
-				<strong>Plato business company, Inc.</strong><br>
-				 4455 Great building Ave, Suite A10<br>
-				 San Francisco, CA 94107<br>
-				<abbr title="Phone">P:</abbr> (123) 456-7890 </address>
-          </div>
-        </div>
-        <div class="span3">
-          <div class="widget">
-            <h5>Browse pages</h5>
-            <ul class="list list-ok">
-              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-              <li><a href="#">Tamquam ponderum at eum, nibh dicta offendit mei</a></li>
-              <li><a href="#">Vix no vidisse dolores intellegam</a></li>
-              <li><a href="#">Est virtute feugiat accommodare eu</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="span3">
-          <div class="widget">
-            <h5>Flickr photostream</h5>
-            <div class="flickr_badge">
-              <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="span3">
-          <div class="widget">
-            <h5>Keep updated</h5>
-            <p>
-              Enter your email to subcribe newsletter
-            </p>
-            <form>
-              <div class="input-append">
-                <input class="span2" id="appendedInputButton" type="text">
-                <button class="btn btn-color" type="submit">Subscribe</button>
-              </div>
-            </form>
-            <ul class="social-network">
-              <li><a href="#"><i class="icon-bg-light icon-facebook icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Twitter"><i class="icon-bg-light icon-twitter icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Linkedin"><i class="icon-bg-light icon-linkedin icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Pinterest"><i class="icon-bg-light icon-pinterest icon-circled icon-1x"></i></a></li>
-              <li><a href="#" title="Google plus"><i class="icon-bg-light icon-google-plus icon-circled icon-1x"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+  <footer class="footer">  
     <div class="subfooter">
       <div class="container">
         <div class="row">
@@ -424,7 +160,6 @@
       </div>
     </div>
   </footer>
-
 
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/modernizr.js"></script>
